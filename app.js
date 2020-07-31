@@ -64,8 +64,6 @@ mongoose.connect(DB, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTo
   if(!err && db) console.log('DB connected')
 })
 
-app.listen(port, () => {
-  console.log(`Listening on port: ${port}`);
-})
+
 
 module.exports = app;
